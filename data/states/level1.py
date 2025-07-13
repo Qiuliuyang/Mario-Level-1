@@ -210,9 +210,9 @@ class Level1(tools._State):
 
     def setup_coin_boxes(self):
         """Creates all the coin boxes and puts them in a sprite group"""
-        coin_box1  = coin_box.Coin_box(685, 365, c.COIN, self.coin_group)
+        coin_box1  = coin_box.Coin_box(685, 365, c.MUSHROOM, self.powerup_group)
         coin_box2  = coin_box.Coin_box(901, 365, c.MUSHROOM, self.powerup_group)
-        coin_box3  = coin_box.Coin_box(987, 365, c.COIN, self.coin_group)
+        coin_box3  = coin_box.Coin_box(987, 365, c.MUSHROOM, self.powerup_group)
         coin_box4  = coin_box.Coin_box(943, 193, c.COIN, self.coin_group)
         coin_box5  = coin_box.Coin_box(3342, 365, c.MUSHROOM, self.powerup_group)
         coin_box6  = coin_box.Coin_box(4030, 193, c.COIN, self.coin_group)
